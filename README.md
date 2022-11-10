@@ -81,7 +81,8 @@ Capybara requires Ruby 2.7.0 or later. To install, add this line to your
 gem 'capybara'
 ```
 
-If the application that you are testing is a Rails app, add this line to your test helper file:
+If the application that you are testing is a Rails app then Capybara should already be included in your `Gemfile`.
+[Add this line to your test helper file](https://replayable.io/replay/636d895e0efcc70066e4ccc9/?share=eCS2ZGU92IW2cQ5br7h7g):
 
 ```ruby
 require 'capybara/rails'
